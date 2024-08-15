@@ -1,4 +1,6 @@
 *{
+    background-color: black;
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,18 +11,23 @@
     flex-wrap: wrap;
     align-items: center;
     height: 10vh;
-    border: 1px solid red ;
+    /* border: 1px solid red ; */
+    color: white;
  }
 
  header h1{
     flex: 1 0 50%;
-    border: 1px solid red ;
+    /* border: 1px solid red ; */
+    color: white;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
  }
 
  header nav{
     flex: 1 0 50%;
     display:flex;
-    border: 1px solid red ;
+    /* border: 1px solid red ; */
+    color: white;
  }
 
 header ul{
@@ -28,20 +35,48 @@ header ul{
     flex-direction: row;
     justify-content: end;
     width: 100%;
+    color: white;
    
 }
 header li{
     list-style: none;
     padding-right: 10%;
+    color: white;
     
 }
+a{
+    color: orange;
+}
 
+h3{
+    font-size: 55px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: transparent;
+    margin-right: 45%;
+}
 
+h1 {
+    
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+
+#contactme {
+    color: greenyellow;
+}
+
+p{
+    flex-wrap: wrap;
+    font-size: 24px;
+    /* align-items: baseline; */
+}
 
 main,footer{
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red ;
+    /* border: 1px solid red ; */
+    color: white;
 }
 
 aside{
@@ -50,46 +85,69 @@ aside{
     display: flex;
     justify-content: end;
     padding: 1% 2%;
+    color: white;
 }
 section{
     flex: 1 0 80%;
     padding: 1% 2%;
+    color: white;
+   
+    
+    
+
+    /* display: flex; */
 }
+
 
 footer li{
     list-style: none;
+    color: white;
 }
 footer ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    color: white;
 }
 #big-pic img{
-    width: 100%;
+    width: 40%;
+   
 }
 #hero{
-    background: url(https://placehold.co/1200x300);
-    background-size: contain;
-    height: 55vh;
+    background: url(./images/f_a_18f_super_hornet_vfa_103_jolly_rogers_by_luchogamerpro_day0p7u-pre.jpg);
+    background-size: cover;
+    
+    height: 75vh;
     width: 100%;
     background-repeat: no-repeat;
-    border: 1px solid red ;
+    /* border: 1px solid red ; */
     display: flex;
     justify-content: flex-end;
     align-items: end;
     padding: 5%;
-
+    color: white;
+    align-items: center;
   
 }
 #small-pics{
     display: flex;
      flex-wrap: wrap;
+     color: white;
+     
 }
 #small-pics section{
     flex: 1 0 45%;
+    color: white;
+    
+    
+    
 }
 
 #small-pics img{
     width: 100%;
+    color: white;
+    object-fit: contain;
+    object-fit: scale-down;
+
 }
 
