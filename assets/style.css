@@ -110,8 +110,10 @@ footer ul{
     color: white;
 }
 #big-pic img{
-    width: 40%;
-   
+    width: 30%;
+    
+    margin-left: 25%;
+    
 }
 #hero{
     background: url(./images/f_a_18f_super_hornet_vfa_103_jolly_rogers_by_luchogamerpro_day0p7u-pre.jpg);
