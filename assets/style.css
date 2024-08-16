@@ -79,6 +79,10 @@ main,footer{
     color: white;
 }
 
+/* footer{ */
+
+/* } */
+
 aside{
     border-right: 2px solid black;
     flex: 1 0 15%;
@@ -110,27 +114,40 @@ footer ul{
     color: white;
 }
 #big-pic img{
-    width: 30%;
+    width: 70%;
     
     margin-left: 25%;
     
 }
 #hero{
-    background: url(./images/f_a_18f_super_hornet_vfa_103_jolly_rogers_by_luchogamerpro_day0p7u-pre.jpg);
-    background-size: cover;
-    
-    height: 75vh;
-    width: 100%;
+    /* background: url(./images/f_a_18f_super_hornet_vfa_103_jolly_rogers_by_luchogamerpro_day0p7u-pre.jpg); */
+    /* background-size: cover; */
+ /* height: 60vh;  */
+  position: relative;
+     width: 100%;  
     background-repeat: no-repeat;
     /* border: 1px solid red ; */
-    display: flex;
-    justify-content: flex-end;
+    /* display: flex;
+    justify-content: flex-end; 
     align-items: end;
-    padding: 5%;
+    padding: 5%; */
     color: white;
     align-items: center;
-  
+    
 }
+
+#hero h3{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+;
+}
+
+#hero img {
+    /* height: 90vh;  */
+    width: 100%;
+}
+
 #small-pics{
     display: flex;
      flex-wrap: wrap;
